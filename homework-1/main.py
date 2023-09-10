@@ -4,8 +4,8 @@ from multiprocessing import connection
 import psycopg2
 import pandas as pd
 
-if __name__ == 'main':
-    conn = psycopg2.connect(
+
+conn = psycopg2.connect(
     host="localhost",
     database="north",
     user="postgres",
